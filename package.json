@@ -1,0 +1,16 @@
+{
+  "name": "promises-performance",
+  "version": "1.0.0",
+  "description": "Time out response comparison between native-promises, async/await and bluebird",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "GAP",
+  "license": "ISC",
+  "dependencies": {
+    "benchmarkify": "^3.0.0",
+    "bluebird": "^3.5.3"
+  }
+}
